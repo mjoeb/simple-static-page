@@ -1,0 +1,154 @@
+aside, article, section {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+		box-sizing: border-box;
+}
+body {
+	font-family: cursive, arial, sans-serif;
+	background: #FFF url('images/bg2.jpg') no-repeat;
+}
+#container {
+	max-width: 960px;
+	margin: 10px auto;
+}
+h2 {
+	font-family: ;
+	color: #C8C8C8;
+	display: none;
+
+}
+header {
+	width: 800px;
+	height: 200px;
+	background: url('images/banner.jpg') no-repeat;
+	margin: 0 auto;
+	box-shadow: 0 0 20px #484848;
+}
+nav {
+	background: #595959;
+	border-radius: 10px 10px 0 0;
+	margin: 15px 0;
+
+}
+nav li {
+	display: inline-block;
+	list-style: none;
+	padding-left: 5px;
+
+}
+nav a {
+	color: #FF7600;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+	display: block;
+	padding: 10px;
+}
+nav a:hover {
+	background: #FF7600;
+	color: #464646;
+}.currentloc {
+	background: #FF7600;
+	color: #464646;
+}
+
+form, ul {
+	display: inline;
+
+}
+nav form {
+	margin: 7px;
+	float: right;
+
+}
+nav input, button {
+	border: 2px solid #F9993E;
+	background: #FFF;
+	
+}
+nav form input {
+	position: relative;
+	height: 20px;
+	left: 3px;
+	border-radius: 10px 0 0 10px;
+}
+nav form button {
+	position: relative;
+	height: 26px;
+	right: 3px;
+	border-left: none;
+	border-radius: 0 10px 10px 0;
+}
+#wrap {
+	margin: 15px 0;
+	zoom: 1;
+}
+#wrap article {
+	background: #E9E9E9;
+	padding: 20px;
+}
+#wrap figure {
+	float: right;
+}
+#wrap section img {
+	border: 1px solid #555;
+	padding: 3px;
+	background: #FFF;
+}
+section {
+	width: 640px;
+	height: 100%;
+	float: left;
+}
+section article {
+	width: 640px;
+	margin-bottom: 15px;
+	border-radius: 10px;
+}
+aside {
+	width: 300px;
+	height: 100%;
+	float: right;
+}
+aside article {
+	width: 300px;
+	height: 200px;
+	margin-bottom: 15px;
+	border-radius: 10px;
+}
+aside fieldset {
+	border: none;
+}
+aside input, label {
+	margin: 5px;
+}
+aside input {
+	border: 3px solid #F9993E;
+	border-radius: 10px;
+}
+aside input[type="submit"] {
+
+}
+footer {
+	clear: both;
+	background: #595959;
+	border-radius: 0 0 10px 10px;
+	margin: 15px 0;
+}
+footer ul {
+	padding: 0;
+}
+footer li {
+	display: inline-block;
+}
+footer a {
+	color: #FF7600;
+	text-decoration: none;
+	font-size: 15px;
+	display: block;
+	padding: 10px;
+
+}
+footer a:hover {
+	text-decoration: underline;
+}
