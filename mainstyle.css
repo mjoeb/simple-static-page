@@ -62,8 +62,8 @@ nav form {
 
 }
 nav input, button {
-	border: 2px solid #F9993E;
-	background: #FFF;
+	border: 1px solid #BABABA;
+	background: #BABABA;
 	
 }
 nav form input {
@@ -74,7 +74,7 @@ nav form input {
 }
 nav form button {
 	position: relative;
-	height: 26px;
+	height: 24px;
 	right: 3px;
 	border-left: none;
 	border-radius: 0 10px 10px 0;
@@ -104,6 +104,16 @@ section article {
 	width: 640px;
 	margin-bottom: 15px;
 	border-radius: 10px;
+	overflow: hidden;
+}
+#other figure {
+	display: inline-block;
+	margin: 10px 19px;
+
+}
+#other figcaption {
+	width: 150px;
+	font-size: .7em;
 }
 aside {
 	width: 300px;
@@ -115,19 +125,6 @@ aside article {
 	height: 200px;
 	margin-bottom: 15px;
 	border-radius: 10px;
-}
-aside fieldset {
-	border: none;
-}
-aside input, label {
-	margin: 5px;
-}
-aside input {
-	border: 3px solid #F9993E;
-	border-radius: 10px;
-}
-aside input[type="submit"] {
-
 }
 footer {
 	clear: both;
