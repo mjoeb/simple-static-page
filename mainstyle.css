@@ -28,6 +28,7 @@ nav {
 	background: #595959;
 	border-radius: 10px 10px 0 0;
 	margin: 15px 0;
+	position: relative;
 
 }
 nav li {
@@ -58,7 +59,8 @@ form, ul {
 }
 nav form {
 	margin: 7px;
-	float: right;
+	position: absolute;
+	right: 10px;
 
 }
 nav input, button {
@@ -79,6 +81,7 @@ nav form button {
 	border-left: none;
 	border-radius: 0 10px 10px 0;
 }
+/*content start here*/
 #wrap {
 	margin: 15px 0;
 	zoom: 1;
