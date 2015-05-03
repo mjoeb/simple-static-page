@@ -1,3 +1,4 @@
+
 aside, article, section {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -8,14 +9,13 @@ body {
 	background: #FFF url('images/bg2.jpg') no-repeat;
 }
 #container {
-	max-width: 960px;
+	min-width: 960px;
+	width: 960px;
 	margin: 10px auto;
 }
 h2 {
 	font-family: ;
-	color: #C8C8C8;
-	display: none;
-
+	color: #FFFFFF;
 }
 header {
 	width: 800px;
@@ -30,6 +30,9 @@ nav {
 	margin: 15px 0;
 	position: relative;
 
+}
+nav ul {
+	margin-left: 20px;
 }
 nav li {
 	display: inline-block;
@@ -58,18 +61,19 @@ form, ul {
 
 }
 nav form {
-	margin: 7px;
+	margin: 3px;
 	position: absolute;
-	right: 10px;
+	right: 20px;
 
 }
 nav input, button {
-	border: 1px solid #BABABA;
+	border: 1px solid #FF7600;
 	background: #BABABA;
 	
 }
 nav form input {
 	position: relative;
+	width: 150px;
 	height: 20px;
 	left: 3px;
 	border-radius: 10px 0 0 10px;
@@ -77,11 +81,15 @@ nav form input {
 nav form button {
 	position: relative;
 	height: 24px;
-	right: 3px;
+	top: 2px;
 	border-left: none;
 	border-radius: 0 10px 10px 0;
 }
 /*content start here*/
+h1 {
+	font-size: 25px;
+	margin-bottom: 10px; 
+}
 #wrap {
 	margin: 15px 0;
 	zoom: 1;
@@ -92,6 +100,7 @@ nav form button {
 }
 #wrap figure {
 	float: right;
+	margin-left: 10px; 
 }
 #wrap section img {
 	border: 1px solid #555;
@@ -125,18 +134,71 @@ aside {
 }
 aside article {
 	width: 300px;
-	height: 200px;
 	margin-bottom: 15px;
 	border-radius: 10px;
+}
+aside fieldset {
+	width: 200px;
+	margin: 0 auto;
+	color: #FF7600;
+	font-weight: bold;
+	border: 3px solid #FF7600;
+	padding: 10px;
+	padding: 15px;
+}
+aside legend {
+	position: relative;
+	left: 70px;
+	top: 5px;
+	margin-bottom: 10px;
+}
+.userinput  {
+	width: 170px;
+	height: 20px;
+	border: 1px solid #FF7600;
+	background: #BABABA;
+	display: block;
+	margin: 5px 0;
+	border-radius: 5px;
+}
+aside input[type="submit"] {
+	border: none;
+	color: #333;
+	font-weight: bold;
+	padding: 5px;
+	background: linear-gradient(#DFD180, #FF7600);
+	border-radius: 5px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+aside input[type="submit"]:hover {
+	background: #FF7600;
+}
+aside input[type="button"] {
+	border: none;
+	background: #E9E9E9;
+	margin-top: 5px;
+	margin-left: 30px;
+	cursor: pointer;
+} 
+aside input[type="button"]:hover {
+	text-decoration: underline;
+}
+.reltop li {
+	width: 80px;
+	margin: 10px 0;
+}
+.reltop a {
+	color: #49AFCF;
+}
+.reltop a:hover {
+	text-decoration: underline;
 }
 footer {
 	clear: both;
 	background: #595959;
 	border-radius: 0 0 10px 10px;
 	margin: 15px 0;
-}
-footer ul {
-	padding: 0;
 }
 footer li {
 	display: inline-block;

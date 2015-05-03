@@ -3,13 +3,13 @@
 <head>
 	<title>Simple page</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="mainstyle.css">
 </head>
 <body>
 	<div id="container">
 		<header>
-			<h2>I like to build</h2>
+			
 		</header>
 		<nav>
 			<ul>
@@ -63,8 +63,27 @@
 			</section>
 			<aside>
 				<article>
+					<form>
+						<fieldset>
+							<legend>Sign In</legend>
+							<label for="uname">Username</label><input type="text" id="uname" class="userinput">
+							<label for="pass">Password</label><input type="password" id="pass" class="userinput">
+							<input type="submit" value="Sign In" class="button">
+							<input type="button" value="Register" class="button">
+						</fieldset>
+					</form>
 				</article>
-				<article></article>
+				<article class="reltop">
+					<h3>Related topics</h3>
+					<ul>
+						<li><a href="#">Topic 1</a></li>
+						<li><a href="#">Topic 2</a></li>
+						<li><a href="#">Topic 3</a></li>
+						<li><a href="#">Topic 4</a></li>
+						<li><a href="#">Topic 5</a></li>
+						<li><a href="#">Topic 6</a></li>
+					</ul>
+				</article>
 				<article></article>
 			</aside>
 		</div>
